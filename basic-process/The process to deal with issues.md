@@ -1,28 +1,25 @@
+To make our defect monitoring more efficient and get reply without delay, we need to enhance our process to deal with new opened issues and issues that need to add test cases.
+    
 
-Below are some discussion result and actions need to follow from the next sprint for the sprint/task monitoring for China Team.
+* Move this defect to Backlog pipeline
+
+
+* then
+
+    If have owner assigned:  Pls the owner do a quick investigation to judge whether it is simple and can be fixed in minutes.
+    
+    if not: I will try to assign someone to do the quick investigation. 
  
-* The story and tasks will be traced in Github xcat2/xcat-core repo. 
 
-* In Github, new labels such as sprint1, sprint2 were created.
+* If the defect is simple and can be fixed easily, then owner need to move the pipeline accordingly, fix it and add comments to let the creator know the progress.
 
-* Story will have EPIC label. 
 
-* Tasks will be assigned an estimate point in the sprint plan meeting. The point mean an estimated time needed to finish the task for average skilled developer.
+* If not, pls let me know , I will assign estimated time costs first, and then judge the priority together with the working-on items. 
 
-* The label “type:feature" is marked to issue that represent Tasks of a story.  
 
-* The task(with “type:feature" label) have sprint1 or sprint2 label marked, as well as a specified Milestone.
+* For higher priority issue, the owner need to move it to "In Progress" pipeline, and his/her working item can be delayed accordingly. 
 
-* The issue need to be fixed in a sprint shall have both Milestone assigned and sprint* label marked.
+* If the issue can not be fixed at the end of day, pls DO add comments to show we are working on it.
+ 
 
-* For long term supporting stories such as OpenBMC support, the story tile will be in the format: [OPENBMC_SUPPORT]<EPIC name>(The EPIC name simply show what will do in this sprint)
-
-* The planed story and tasks are got from wishlist or backlog. ==> TODO
-
-   Currently, the following source I can think our to get the task to do:
-
-    * the CRL feature list for 2017
-
-    * the opening issues, PMRs
-
-    * the requirement from maillist or github, we shall judge the priority
+* For lower priority issue, we can defer the fixing. And the owner need to add comments to show we had took a look at the issue, maybe hard to fix and there is a work around, we will fix it later...
