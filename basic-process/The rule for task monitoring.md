@@ -1,5 +1,14 @@
 Below are some discussion result and actions need to follow from the next sprint for the sprint/task monitoring for China Team.
  
+* Provide xcat dev wish list
+
+* The backlog list shall be started to prepare at last Friday of a sprint, ready before the next sprint plan meeting
+
+* For the sprint plan meeting, devide it into 2 part:
+
+    * In the morning, prepare the story, task and acceptance
+ 
+    * In the afternoon, break down the story, task with small group. Once breakdown, pls @ related dev to review.
 
 * The story and tasks will be traced in Github `xcat2/xcat-core` repo. 
 
