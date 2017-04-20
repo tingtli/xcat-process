@@ -1,0 +1,11 @@
+## The format of title
+
+The format of title are 
+
+    Add/Refine test case for issue <issue number> : <issue  digest>
+    
+or 
+
+    Add/Refine test case for feature : <feature digest>
+    
+   
