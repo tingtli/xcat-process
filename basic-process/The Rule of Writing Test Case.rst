@@ -31,3 +31,4 @@
               
 * If need to handle multiple platform in one case, make the code clearly.
 
+* aa ![](https://github.com/xcat2/xcat-process/blob/master/pics/1.jpg)
