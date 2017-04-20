@@ -6,6 +6,7 @@ The process, guidence, rule, tips need to follow by xCAT developers and FVTs
 
 ### Process for FVT
 
+* [The Template of Pull Request of Test Case](https://github.com/xcat2/xcat-process/blob/master/basic-process/The%20Template%20of%20Pull%20Request%20of%20Test%20Case)
 
 ### Process for developer
 
