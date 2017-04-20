@@ -47,3 +47,20 @@ The important logs are:
 +-----------------------------+--------------------------------------------------------------------------------------------------------+
 |console_log/*                |The "/var/log/consoles" directory pulled back from test cluster,  (maybe failed to catch such log)      |
 +-----------------------------+--------------------------------------------------------------------------------------------------------+
+
+Other important files are:
+
++-----------------------------+--------------------------------------------------------------------------------------------------------+
+|         Log Name            |                                    Description                                                         |
++-----------------------------+--------------------------------------------------------------------------------------------------------+
+|cluster.conf                 |The config file of xcattest used by this project.                                                       | 
++-----------------------------+--------------------------------------------------------------------------------------------------------+
+|rhels7.3_ppc64le.bundle      |The bundle file used by this project.                                                                   |
++-----------------------------+--------------------------------------------------------------------------------------------------------+
+
+
+How to debug for one specific failed case. Take case ``bmcdiscover_check_paswd`` shown in the second table above for example. Find all running process of case ``bmcdiscover_check_paswd`` in ``xcattest.log.20170415133104``. It looks like below(location the case by searching case name): 
+
+Find out the failed reason by going through the case running log. 
+
+**One tip:There is a timestamp behind every command, If need to find more information among** ``/var/log/message``, ``/var/log/xcat/cluster.log`` **and so on, this timestamp is useful to locate related logs.**
