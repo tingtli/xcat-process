@@ -10,7 +10,7 @@ The process, guidence, rule, tips need to follow by xCAT developers and FVTs
 
 * [The Template of Pull Request of Test Case](https://github.com/xcat2/xcat-process/blob/master/basic-process/The%20Template%20of%20Pull%20Request%20of%20Test%20Case.rst)
 
-* [The steps of debugging in automation environment](https://github.com/xcat2/xcat-process/blob/master/basic-process/The%20Steps%20of%20Debugging%20in%20Automation%20Environment.rst)
+* [The Steps of Debugging in Automation Environment](https://github.com/xcat2/xcat-process/blob/master/basic-process/The%20Steps%20of%20Debugging%20in%20Automation%20Environment.rst)
 
 ### Process for developer
 
