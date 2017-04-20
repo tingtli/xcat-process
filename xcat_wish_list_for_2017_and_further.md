@@ -48,6 +48,9 @@ Switch to OPAL mode and operated through ipmi, used as MN in CORAL cluster
     * Discovery and Configuration End to End verification ==> 2.13.4
     * IB - OFED  (Check with Jim Still about the release date and version) ==> 2.13.6 
 
+* performance enhancement
+    * makedhcp,nodeset enhancement ==> 2.13.4
+    * makedns, \*def command ==> 2.13.5
 
 
 ## P2
