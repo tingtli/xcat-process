@@ -13,15 +13,21 @@
 
 * The rule of case naming
 
-  * The case for command
+  * The case for command  ::
   
-            Format : <cmd>_<option>_<purpose_digest>
-                   <cmd> means the commands which the case belongs to
-                   <option>  means which option we tested
-                   <purpose_digest> using simple word to highlight the test purpose
+    <cmd>_<option>_<purpose_digest>
+    
+    "cmd" means the commands which the case belongs to
+    
+    "option" means which option we tested
+    
+    "purpose_digest" using simple word to highlight the test purpose
+    
                    
-  * The case for process
-                   <process key word>_<purpose_digest>
+  * The case for process  ::
+  
+    <process key word>_<purpose_digest>
+              
               
 * If need to handle multiple platform in one case, make the code clearly.
 
