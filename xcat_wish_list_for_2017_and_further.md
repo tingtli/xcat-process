@@ -30,7 +30,7 @@ Need to verify whether latest genesis-base can work on WSP server, if not, will 
 
 * reventlog (For OpenBMC)==> 2.13.5
 
-* configure BMC in band(bmcsetup) verification
+* configure BMC in band(bmcsetup) verification  
 It was known that the ipmi command such as user configuration won't be supported on OpenBMC, we shall call RestFul interface.
     * Modify bmcsetup to not run user configuration related function through ipmi-inband ==> 2.13.4
     * Call ``respconfig userXXX`` through RESTful interface to configure user account. ==> 2.13.5
@@ -42,7 +42,7 @@ Switch to OPAL mode and operated through ipmi, used as MN in CORAL cluster
     * Mid and Edge switch discovery and configuration ==> 2.13.5
     * SN and CN discovery and deployment
         * SN based on Mid switch ==> 2.13.5
-        * CN based on Edge switch ==> 2.13.6
+        * CN based on Edge switch ==> 2.13.5
 
 * Mellanox Switch
     * Discovery and Configuration End to End verification ==> 2.13.4
@@ -72,3 +72,4 @@ Switch to OPAL mode and operated through ipmi, used as MN in CORAL cluster
 
 ## P3
 
+* New xCAT prototype with Python ==> TBD
