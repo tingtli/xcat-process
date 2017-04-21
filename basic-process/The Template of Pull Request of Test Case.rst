@@ -24,13 +24,13 @@
 
       [case 1]
       Case Name: rpower_stat
-      Description: Try to verify the rpower command with stat option. Valid for all xcat version.
-      Attribute: $$CN-The operation object of rpower command.
+      description: Try to verify the rpower command with stat option. Valid for all xcat version.
+      attribute: $$CN-The operation object of rpower command.
 
       [case 2]
       Case Name: rpower_off
-      Description: Try to verify the rpower command with off option. Valid for all xcat version.
-      Attribute: $$CN-The operation object of rpower command.
+      description: Try to verify the rpower command with off option. Valid for all xcat version.
+      attribute: $$CN-The operation object of rpower command.
 
 
 **[Note]**:
