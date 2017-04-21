@@ -51,7 +51,11 @@ Switch to OPAL mode and operated through ipmi, used as MN in CORAL cluster
 * performance enhancement
     * makedhcp,nodeset enhancement ==> 2.13.4
     * makedns, \*def command ==> 2.13.5
+    * xdsh,updatenode ==> 2.13.5
+    * hardware control commands: rpower, rsetboot... ==> 2.13.6
+    * service xcatd start/restart on MN and SN ==> 2.13.5?
 
+* A document or design for the whole progress of setup CRL cluster. ==> 2.13.4-2.13.6
 
 ## P2
 
@@ -72,6 +76,8 @@ Switch to OPAL mode and operated through ipmi, used as MN in CORAL cluster
 * RH7.4 ==> 2.13.6
     
 * RH8  ==> 2.13.9
+
+* enhance xcatprobe to do health check within CORAL cluster?
 
 ## P3
 
