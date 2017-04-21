@@ -65,6 +65,7 @@ Switch to OPAL mode and operated through ipmi, used as MN in CORAL cluster
     * service xcatd start/restart on MN and SN ==> 2.13.5(Jun 30, 2017)?
 
 * A document or design for the whole progress of setup CRL cluster.==> TBD
+   * service node poll ==> TBD
 
 ## P2
 
