@@ -3,59 +3,68 @@ This document is structured based on priority
 
 ## P1
 
-* PGS Alpha ==> 2.13.6
+* PGS Alpha ==> 2.13.6(Aug 11，2017)
 
-* PGS GA ==> 2.13.9
+* PGS GA ==> 2.13.9(Dec 22, 2017)
 
 * ~~rcons(For OpenBMC) through ssh~~
 
 * ~~rpower(For OpenBMC)~~
 
 * rspconfig 
-    * ip/netmask/gateway/vlan/snmp/alert(For OpenBMC) ==> 2.13.4 
-    * useradd/userch/userrm/userls(For OpenBMC) ==> 2.13.5
+    * ip/netmask/gateway(For OpenBMC) ==> 2.13.4(May 19, 2017)
+    * vlan/snmp/alert(For OpenBMC) ==> 2.13.5(Jun 30, 2017)
+    * useradd/userch/userrm/userls(For OpenBMC) ==> 2.13.5(Jun 30, 2017)
 
-* rinv (For OpenBMC)==> 2.13.4
+* rinv (For OpenBMC)==> 2.13.4(May 19, 2017)
 
-* rsetboot (For OpenBMC)==> 2.13.4
+* rsetboot (For OpenBMC)==> 2.13.4(May 19, 2017)
 
-* hardware discovery include(genesis-base) verification ==> 2.13.4/2.13.5  
-Need to verify whether latest genesis-base can work on WSP server, if not, will be high priority issue.
+* hardware discovery include(genesis-base) verification
+    * verify whether latest genesis-base can work on WSP server ==> 2.13.4(May 19, 2017)
+    * If not, try latest Fedora on WSP server and rebuild genesis-base ==> 2.13.5 (Jun 30, 2017)
 
-* bmcdiscovery (For OpenBMC)==> 2.13.4
+* bmcdiscover (For OpenBMC)==> 2.13.4(May 19, 2017)
 
-* rflash (For OpenBMC)==> 2.13.6    
+* rflash (For OpenBMC)==> 2.13.6(Aug 11, 2017)
 
-* rvitals (For OpenBMC)==> 2.13.5 
+* rvitals (For OpenBMC)==> 2.13.5(Jun 30, 2017)
 
-* reventlog (For OpenBMC)==> 2.13.5
+* reventlog (For OpenBMC)==> 2.13.5(Jun 30, 2017)
 
 * configure BMC in band(bmcsetup) verification  
 It was known that the ipmi command such as user configuration won't be supported on OpenBMC, we shall call RestFul interface.
     * Modify bmcsetup to not run user configuration related function through ipmi-inband ==> 2.13.4
     * Call ``respconfig userXXX`` through RESTful interface to configure user account. ==> 2.13.5
 
-* P9 ZZ verification ==> 2.13.6  
+* WSP EUH server E2E verification==> 2.13.5(Jun 30, 2017)  
+    * hardware discovery: bmcdiscover, rspconfig, genesis-base + bmcsetup
+    * hardware control: rpower, rsetboot
+    * PGS diskless/diskful deployment
+
+* GPU: Cuda9 verification==> 2.13.6(Aug 11, 2017)
+
+* P9 ZZ verification ==> 2.13.6(Aug 11, 2017)
 Switch to OPAL mode and operated through ipmi, used as MN in CORAL cluster
 
-* switch based discovery  
-    * Mid and Edge switch discovery and configuration ==> 2.13.5
+* switch based discovery==> 2.13.5(Jun 30, 2017) 
+    * Mid and Edge switch discovery and configuration
     * SN and CN discovery and deployment
-        * SN based on Mid switch ==> 2.13.5
-        * CN based on Edge switch ==> 2.13.5
+        * SN based on Mid switch
+        * CN based on Edge switch
 
 * Mellanox Switch
-    * Discovery and Configuration End to End verification ==> 2.13.4
-    * IB - OFED  (Check with Jim Still about the release date and version) ==> 2.13.6 
+    * Discovery and Configuration End to End verification ==> 2.13.4(May 19, 2017)
+    * IB - OFED  (Check with Jim Still about the release date and version) ==> 2.13.6 (Aug 11, 2017)
 
 * performance enhancement
-    * makedhcp,nodeset enhancement ==> 2.13.4
-    * makedns, \*def command ==> 2.13.5
-    * xdsh,updatenode ==> 2.13.5
-    * hardware control commands: rpower, rsetboot... ==> 2.13.6
-    * service xcatd start/restart on MN and SN ==> 2.13.5?
+    * makedhcp,nodeset enhancement ==> 2.13.4(May 19, 2017)
+    * makedns, \*def command ==> 2.13.5(Jun 30, 2017)
+    * xdsh,updatenode ==> 2.13.5(Jun 30, 2017)
+    * hardware control commands: rpower, rsetboot... ==> 2.13.6(Aug 11, 2017)
+    * service xcatd start/restart on MN and SN ==> 2.13.5(Jun 30, 2017)?
 
-* A document or design for the whole progress of setup CRL cluster. ==> 2.13.4-2.13.6
+* A document or design for the whole progress of setup CRL cluster.==> TBD
 
 ## P2
 
@@ -65,19 +74,17 @@ Switch to OPAL mode and operated through ipmi, used as MN in CORAL cluster
     * Cumulus ZTP (https://github.com/xcat2/xcat-core/issues/2662) ==> TBD 
     * Cumulus Autodiscovery (https://github.com/xcat2/xcat-core/issues/2661) ==> TBD
 
-* GPU: Cuda9 verification==> 2.13.6
-
 * iPDU
     * PDU support in rvitals (GitHub comment) ==> TBD
     * iPDU verification on new PDU in Railhawk Frame ==> TBD
 
-* RHV 4.1 (test driven) ==> 2.13.4
+* RHV 4.1 (test driven) ==> 2.13.4(May 19, 2017)
 
-* RH7.4 ==> 2.13.6
+* RH7.4 ==> 2.13.6(Aug 11, 2017)
     
-* RH8  ==> 2.13.9
+* RH8  ==> 2.13.9(Dec 22, 2017)
 
-* enhance xcatprobe to do health check within CORAL cluster?
+* enhance xcatprobe to do health check within CORAL cluster==> TBD
 
 ## P3
 
