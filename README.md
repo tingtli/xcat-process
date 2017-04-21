@@ -3,6 +3,11 @@ The process, guidence, rule, tips need to follow by xCAT developers and FVTs
 
 ### Tips for xCAT interface modification
 
+For the modification of interface either external or internal, the developer must pay much attention to it.
+
+* The owner shall get an agreement from all developers before modifying.
+
+* The modification must pass a set of testcases related to the modified interface.
 
 ### Process for FVT
 
